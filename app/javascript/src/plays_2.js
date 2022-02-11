@@ -1,6 +1,6 @@
 $(function(){
   
-  $.each((new Array(5)), function() { //繰り返しを指定する
+  $.each((new Array(1)), function() { //繰り返しを指定する
 
     function move(){ //アニメーションをチェインで指定
       $('.js-btn-2')
@@ -41,11 +41,7 @@ $(function(){
     duration: 2500,
     easing: 'swing',
     complete: function(){ //ページが変わってもアラートでてしまう。classをaddするか？
-      //if (confirm('だめじゃーん')) {
-        //window.location.href = "/";
-      //};
-
-
+      $('.js-message-2').show();
     }
   })
 

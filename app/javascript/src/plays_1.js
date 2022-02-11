@@ -19,17 +19,13 @@ $(function(){
 
   });
 
-  $('.js-btn-1').animate({ //アラートを出してゲームオーバー
+  $('.js-btn-1').animate({ //ゲームオーバーの処理
     left: '90%'
   },{
     duration: 2500,
     easing: 'swing',
-    complete: function(){ //ページが変わってもアラートでてしまう。classをaddするか？
-      //if (confirm('だめじゃーん')) {
-        //window.location.href = "/";
-      //};
-
-
+    complete: function(){ //ゲームオーバーページを作る？
+      $('.js-message-1').show(); 
     }
   })
 
