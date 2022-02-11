@@ -3,7 +3,7 @@ $(function(){
   $.each((new Array(5)), function() { //繰り返しを指定する
 
     function move(){ //アニメーションをチェインで指定
-      $('.js-btn')
+      $('.js-btn-1')
       
       .animate({
         left: '90%',
@@ -19,17 +19,13 @@ $(function(){
 
   });
 
-  $('.js-btn').animate({ //アラートを出してゲームオーバー
+  $('.js-btn-1').animate({ //ゲームオーバーの処理
     left: '90%'
   },{
     duration: 2500,
     easing: 'swing',
-    complete: function(){ //アラート出して、'/' に遷移
-      if (confirm('だめじゃーん')) {
-        window.location.href = "/";
-      };
-
-
+    complete: function(){ //ゲームオーバーページを作る？
+      $('.js-message-1').show(); 
     }
   })
 
