@@ -3,15 +3,31 @@ $(function(){
   $.each((new Array(5)), function() { //繰り返しを指定する
 
     function move(){ //アニメーションをチェインで指定
-      $('.js-btn-1')
+      $('.js-btn-2')
+      
+      .animate({
+        left: '45%',
+      }, 1000, 'swing')
+
+      .animate({
+        left: '15%'
+      }, 1000, 'swing')
+
+      .animate({
+        left: '75%',
+      }, 1000, 'swing')
+      
+      .animate({
+        left: '45%',
+      }, 1000, 'swing')
       
       .animate({
         left: '90%',
-      }, 2500, 'swing')
-
+      }, 1000, 'swing')
+      
       .animate({
-        left: '0%'
-      }, 2500, 'swing')
+        left: '0%',
+      }, 1000, 'swing')
 
     }
  
@@ -19,7 +35,7 @@ $(function(){
 
   });
 
-  $('.js-btn-1').animate({ //アラートを出してゲームオーバー
+  $('.js-btn-2').animate({ //アラートを出してゲームオーバー
     left: '90%'
   },{
     duration: 2500,
@@ -34,7 +50,3 @@ $(function(){
   })
 
 });
-
-
-
-
