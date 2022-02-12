@@ -203,13 +203,13 @@ $(function(){
 /////////////////////////////////////////////////////////////////////////
   
   // 「押せ」ボタンの着地とGame Over処理
-    $('.js-btn-5').animate({ //アラートを出してゲームオーバー
+    $('.js-btn-5').animate({ 
       top: '0', left: '60%'
     },{
       duration: 1000,
       easing: 'swing',
-      complete: function(){ //ページが変わってもアラートでてしまう。classをaddするか？
-        $('.js-message-5').show();
+      complete: function(){ 
+        window.location.href = "/plays/timeout";
       }
     })
   

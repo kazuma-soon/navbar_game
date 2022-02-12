@@ -41,8 +41,8 @@ $(function(){
   },{
     duration: 2500,
     easing: 'swing',
-    complete: function(){ //ページが変わってもアラートでてしまう。classをaddするか？
-      $('.js-message-3').show();
+    complete: function(){ 
+      window.location.href = "/plays/timeout";
     }
   })
 

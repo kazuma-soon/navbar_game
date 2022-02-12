@@ -18,4 +18,8 @@ class PlaysController < ApplicationController
   def lose
     redirect_to root_path, danger: 'そのボタン押したらダメですやーん。'
   end
+
+  def timeout
+    redirect_to root_path, warning: '時間ぎれ！ 油断したな！！'
+  end
 end

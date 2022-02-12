@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/plays/5', to: 'plays#plays_5'
   get '/plays/win', to: 'plays#win'
   get '/plays/lose', to: 'plays#lose'
+  get '/plays/timeout', to: 'plays#timeout'
 end

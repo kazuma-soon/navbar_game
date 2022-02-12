@@ -1,6 +1,6 @@
 $(function(){
   
-  $.each((new Array(5)), function() { //繰り返しを指定する
+  $.each((new Array(3)), function() { //繰り返しを指定する
 
     function move(){ //アニメーションをチェインで指定
       $('.js-btn-2')
@@ -40,8 +40,8 @@ $(function(){
   },{
     duration: 2500,
     easing: 'swing',
-    complete: function(){ //ページが変わってもアラートでてしまう。classをaddするか？
-      $('.js-message-2').show();
+    complete: function(){ 
+      window.location.href = "/plays/timeout";
     }
   })
 

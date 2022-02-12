@@ -25,7 +25,7 @@ $(function(){
     duration: 2500,
     easing: 'swing',
     complete: function(){ //ゲームオーバーページを作る？
-      $('.js-message-1').show(); 
+      window.location.href = "/plays/timeout";
     }
   })
 
