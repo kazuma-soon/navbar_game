@@ -7,6 +7,13 @@ body {
   margin: 0;
 }
 
+.plays-1-page,
+.plays-2-page,
+.plays-3-page,
+.plays-4-page,
+.plays-5-page 
+{ height: 100%; }
+
 .container-fluid {
   background-color: #eedcb3;
   padding: 0;
@@ -15,5 +22,5 @@ body {
 
 .nav-zone {
   background-color: #16A085;
-  padding: 20px 40px;
+  padding: 20px 0px;
 }
