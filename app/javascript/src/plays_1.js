@@ -6,7 +6,7 @@ $(function(){
       $('.js-btn-1')
       
       .animate({
-        left: '90%',
+        left: '70%',
       }, 2500, 'swing')
 
       .animate({
@@ -20,7 +20,7 @@ $(function(){
   });
 
   $('.js-btn-1').animate({ //ゲームオーバーの処理
-    left: '90%'
+    left: '70%'
   },{
     duration: 2500,
     easing: 'swing',
