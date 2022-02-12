@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get '/plays/4', to: 'plays#plays_4'
   get '/plays/5', to: 'plays#plays_5'
   get '/plays/win', to: 'plays#win'
+  get '/plays/lose', to: 'plays#lose'
 end

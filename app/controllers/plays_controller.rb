@@ -14,4 +14,8 @@ class PlaysController < ApplicationController
   def win
     redirect_to root_path, success: '最強だ！ あなたはどんな速いサイトにも対応できるでしょう。'
   end
+
+  def lose
+    redirect_to root_path, danger: 'そのボタン押したらダメですやーん。'
+  end
 end
