@@ -58,7 +58,7 @@ $(function(){
 /////////////////////////////////////////////////////////////
 
   // 「押すな」ボタン１のアニメーション
-    $.each((new Array(56)), function() {
+    $.each((new Array(49)), function() {
       function badMove(){
         $('.js-bad-btn-5-1')
         .animate({
@@ -71,7 +71,7 @@ $(function(){
     });
   
   // 「押すな」ボタン２のアニメーション
-    $.each((new Array(56)), function() {
+    $.each((new Array(49)), function() {
       function badMove(){
         $('.js-bad-btn-5-2')
         .animate({
@@ -84,7 +84,7 @@ $(function(){
     }); 
   
   // 「押すな」ボタン３のアニメーション
-    $.each((new Array(56)), function() {
+    $.each((new Array(49)), function() {
       function badMove(){
         $('.js-bad-btn-5-3')
         .animate({
@@ -97,7 +97,7 @@ $(function(){
     }); 
 
   // 「押すな」ボタン4のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-4')
       .animate({
@@ -110,7 +110,7 @@ $(function(){
   });
 
   // 「押すな」ボタン5のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-5')
       .animate({
@@ -123,7 +123,7 @@ $(function(){
   });
 
   // 「押すな」ボタン6のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-6')
       .animate({
@@ -136,7 +136,7 @@ $(function(){
   });
 
   // 「押すな」ボタン7のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-7')
       .animate({
@@ -149,7 +149,7 @@ $(function(){
   });
 
   // 「押すな」ボタン8のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-8')
       .animate({
@@ -162,7 +162,7 @@ $(function(){
   });
 
   // 「押すな」ボタン9のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-9')
       .animate({
@@ -175,7 +175,7 @@ $(function(){
   });
 
   // 「押すな」ボタン10のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-10')
       .animate({
@@ -188,7 +188,7 @@ $(function(){
   });
 
   // 「押すな」ボタン11のアニメーション
-  $.each((new Array(56)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-11')
       .animate({
