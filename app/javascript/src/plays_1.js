@@ -1,6 +1,6 @@
 $(function(){
   
-  $.each((new Array(5)), function() { //繰り返しを指定する
+  $.each((new Array(3)), function() { //繰り返しを指定する
 
     function move(){ //アニメーションをチェインで指定
       $('.js-btn-1')
