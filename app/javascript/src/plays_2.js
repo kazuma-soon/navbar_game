@@ -14,7 +14,7 @@ $(function(){
       }, 1000, 'swing')
 
       .animate({
-        left: '75%',
+        left: '70%',
       }, 1000, 'swing')
       
       .animate({
@@ -22,7 +22,7 @@ $(function(){
       }, 1000, 'swing')
       
       .animate({
-        left: '90%',
+        left: '70%',
       }, 1000, 'swing')
       
       .animate({
@@ -36,7 +36,7 @@ $(function(){
   });
 
   $('.js-btn-2').animate({ //アラートを出してゲームオーバー
-    left: '90%'
+    left: '70%'
   },{
     duration: 2500,
     easing: 'swing',

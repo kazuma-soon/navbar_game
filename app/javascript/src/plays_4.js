@@ -1,7 +1,7 @@
 $(function(){
 
 // 「押せ」ボタンのアニメーション
-  $.each((new Array(1)), function() {
+  $.each((new Array(3)), function() {
 
     function move(){
       $('.js-btn-4')
@@ -56,7 +56,7 @@ $(function(){
   });
 
 // 「押すな」ボタン１のアニメーション
-  $.each((new Array(16)), function() {
+  $.each((new Array(48)), function() {
     function badMove(){
       $('.js-bad-btn-4-1')
       .animate({
@@ -69,7 +69,7 @@ $(function(){
   });
 
 // 「押すな」ボタン２のアニメーション
-  $.each((new Array(16)), function() {
+  $.each((new Array(48)), function() {
     function badMove(){
       $('.js-bad-btn-4-2')
       .animate({
@@ -82,7 +82,7 @@ $(function(){
   }); 
 
 // 「押すな」ボタン３のアニメーション
-  $.each((new Array(16)), function() {
+  $.each((new Array(48)), function() {
     function badMove(){
       $('.js-bad-btn-4-3')
       .animate({

@@ -10,11 +10,11 @@ $(function(){
       }, 1000, 'swing')
 
       .animate({
-        top: '0', left: '90%', 
+        top: '0', left: '70%', 
       }, 1000, 'swing')
       
       .animate({
-        top: '300px', left: '90%',
+        top: '300px', left: '70%',
       }, 1000, 'swing')
       
       .animate({
@@ -37,7 +37,7 @@ $(function(){
   });
 
   $('.js-btn-3').animate({ //アラートを出してゲームオーバー
-    top: '0', left: '90%'
+    top: '0', left: '70%'
   },{
     duration: 2500,
     easing: 'swing',
