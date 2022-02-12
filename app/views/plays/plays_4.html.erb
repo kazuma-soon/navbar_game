@@ -1,23 +1,23 @@
+<div id="particles-js"></div>
+
 <div class="plays-4-page">
   <div class="container-fluid">
 
-      <div class="nav-zone">
+      <div class="nav-zone nav-4">
         <%= link_to plays_5_path, class: 'js-btn-4', "data-turbolinks": false do %>
           <button type="button" class="btn btn-primary btn-lg">押せ！</button>
         <% end %>
 
-        <%= link_to '#', class: 'js-bad-btn-4-1', "data-turbolinks": false do %>
+        <%= link_to plays_lose_path, class: 'js-bad-btn-4-1', "data-turbolinks": false do %>
           <button type="button" class="btn btn-danger btn-lg">押すな！</button>
         <% end %>
 
-        <%= link_to '#', class: 'js-bad-btn-4-2', "data-turbolinks": false do %>
+        <%= link_to plays_lose_path, class: 'js-bad-btn-4-2', "data-turbolinks": false do %>
           <button type="button" class="btn btn-danger btn-lg">押すな！</button>
         <% end %>
       </div>
 
-      <div class="js-message-4">
-          <p>動くナビゲーションバーに慣れましょう。</p>
-      </div>
+      <h1 class="level text-white text-center">Level.4<h1>
 
   </div>
 <div>

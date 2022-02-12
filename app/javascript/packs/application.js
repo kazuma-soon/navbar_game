@@ -11,6 +11,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
+require("src/particles");
+require("src/top");
 require("src/plays_1");
 require("src/plays_2");
 require("src/plays_3");

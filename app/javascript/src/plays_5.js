@@ -1,7 +1,7 @@
 $(function(){
 
   // 「押せ」ボタンのアニメーション
-    $.each((new Array(1)), function() {
+    $.each((new Array(3)), function() {
   
       function move(){
         $('.js-btn-5')
@@ -58,7 +58,7 @@ $(function(){
 /////////////////////////////////////////////////////////////
 
   // 「押すな」ボタン１のアニメーション
-    $.each((new Array(18)), function() {
+    $.each((new Array(49)), function() {
       function badMove(){
         $('.js-bad-btn-5-1')
         .animate({
@@ -71,7 +71,7 @@ $(function(){
     });
   
   // 「押すな」ボタン２のアニメーション
-    $.each((new Array(18)), function() {
+    $.each((new Array(49)), function() {
       function badMove(){
         $('.js-bad-btn-5-2')
         .animate({
@@ -84,7 +84,7 @@ $(function(){
     }); 
   
   // 「押すな」ボタン３のアニメーション
-    $.each((new Array(18)), function() {
+    $.each((new Array(49)), function() {
       function badMove(){
         $('.js-bad-btn-5-3')
         .animate({
@@ -97,7 +97,7 @@ $(function(){
     }); 
 
   // 「押すな」ボタン4のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-4')
       .animate({
@@ -110,7 +110,7 @@ $(function(){
   });
 
   // 「押すな」ボタン5のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-5')
       .animate({
@@ -123,7 +123,7 @@ $(function(){
   });
 
   // 「押すな」ボタン6のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-6')
       .animate({
@@ -136,7 +136,7 @@ $(function(){
   });
 
   // 「押すな」ボタン7のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-7')
       .animate({
@@ -149,7 +149,7 @@ $(function(){
   });
 
   // 「押すな」ボタン8のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-8')
       .animate({
@@ -162,7 +162,7 @@ $(function(){
   });
 
   // 「押すな」ボタン9のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-9')
       .animate({
@@ -175,7 +175,7 @@ $(function(){
   });
 
   // 「押すな」ボタン10のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-10')
       .animate({
@@ -188,7 +188,7 @@ $(function(){
   });
 
   // 「押すな」ボタン11のアニメーション
-  $.each((new Array(18)), function() {
+  $.each((new Array(49)), function() {
     function badMove(){
       $('.js-bad-btn-5-11')
       .animate({
@@ -203,13 +203,13 @@ $(function(){
 /////////////////////////////////////////////////////////////////////////
   
   // 「押せ」ボタンの着地とGame Over処理
-    $('.js-btn-5').animate({ //アラートを出してゲームオーバー
+    $('.js-btn-5').animate({ 
       top: '0', left: '60%'
     },{
       duration: 1000,
       easing: 'swing',
-      complete: function(){ //ページが変わってもアラートでてしまう。classをaddするか？
-        $('.js-message-5').show();
+      complete: function(){ 
+        window.location.href = "/plays/timeout";
       }
     })
   

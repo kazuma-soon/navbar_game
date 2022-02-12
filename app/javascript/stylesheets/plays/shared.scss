@@ -15,12 +15,15 @@ body {
 { height: 100%; }
 
 .container-fluid {
-  background-color: #eedcb3;
   padding: 0;
   height: 100%;
 }
 
 .nav-zone {
-  background-color: #16A085;
+  background-color: #34495E;
   padding: 20px 0px;
+}
+
+.level {
+  z-index: 0;
 }
