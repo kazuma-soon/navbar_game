@@ -10,4 +10,8 @@ class PlaysController < ApplicationController
   def plays_4 ;end
 
   def plays_5 ;end
+
+  def win
+    redirect_to root_path, success: '最強だ！ あなたはどんな速いサイトにも対応できるでしょう。'
+  end
 end
