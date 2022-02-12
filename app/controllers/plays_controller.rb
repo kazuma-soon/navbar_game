@@ -1,4 +1,6 @@
 class PlaysController < ApplicationController
+  def top ;end
+  
   def plays_1 ;end
 
   def plays_2 ;end
