@@ -1,24 +1,17 @@
-# README
+# Navbar絶対押させない
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+疾走するボタンを押せばクリアの単純で簡単なゲームです。
+![image](https://user-images.githubusercontent.com/88179125/162421103-c747d08d-0b12-4c61-b885-c8f93ab9ebdb.png)
 
-Things you may want to cover:
 
-* Ruby version
+## 紹介
+レベル5以外は全てウォーミングアップの難易度です。
+![navbar](https://user-images.githubusercontent.com/88179125/162421675-0652b4d6-395b-4f4f-887e-06c26b0b311c.gif)
 
-* System dependencies
+[こちら](https://navbar-game.herokuapp.com/)から是非遊んでみてください！
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用技術
+- Ruby on Rails 6.1
+- JavaScript（jQuery, particles.js）
+- Heroku
