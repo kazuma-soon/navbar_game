@@ -4,6 +4,8 @@
 疾走するボタンを押せばクリアの単純で簡単なゲームです。
 ![image](https://user-images.githubusercontent.com/88179125/162421103-c747d08d-0b12-4c61-b885-c8f93ab9ebdb.png)
 
+## URL
+https://navbar-game.herokuapp.com/
 
 ## 紹介
 レベル5以外は全てウォーミングアップの難易度です。
